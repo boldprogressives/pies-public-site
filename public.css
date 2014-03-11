@@ -47,7 +47,7 @@ margin-bottom: -20px;
 	text-transform:none;
 	padding: 0 0 20px 0;
 	color:#222;
-	margin:4px 0 0 0;
+	margin:-10px 0 0 0;
 }
 
 .pies-welcome p{
@@ -245,6 +245,7 @@ ul>ul{
 	font-weight:300;
 	border:1px solid #222;
 	border-radius:0;
+	margin-top:15px;
 }
 
 .lg-welcome-btn:hover{
@@ -515,6 +516,52 @@ margin-top:40px;
 
 .icon-bar{
 	background-color:#999;
+}
+
+
+
+/* -------------------------------- tooltip css -------------------------------- */
+
+.tooltip{
+    position:absolute;
+    z-index:1020;
+    display:block;
+    visibility:visible;
+    padding:5px;
+    font-size:20px;
+    opacity:0;
+    filter:alpha(opacity=0);
+    text-transform:uppercase;
+}
+
+.tooltip.top .tooltip-arrow{
+    visibility: hidden;
+}
+.tooltip.left .tooltip-arrow{
+    visibility: hidden;
+}
+.tooltip.bottom .tooltip-arrow{
+    visibility: hidden;
+}
+.tooltip.right .tooltip-arrow{
+    visibility: hidden;
+}
+.tooltip-inner{
+    max-width:200px;
+    padding:5px 5px;
+    color:#000;
+    text-align:center;
+    text-decoration:none;
+    background-color:transparent;
+    -webkit-border-radius:0;
+    -moz-border-radius:0;
+    border-radius:0;
+}
+
+.tooltip-arrow{
+    position:absolute;
+    width:0;
+    height:0
 }
 
 
