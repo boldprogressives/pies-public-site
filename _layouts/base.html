@@ -22,6 +22,8 @@
       <script src="assets/js/html5shiv.js"></script>
       <script src="assets/js/respond.min.js"></script>
     <![endif]-->
+    <script>startTime=new Date()</script>
+
   </head>
 
   <body>
@@ -80,6 +82,15 @@
     <script>
 $(document).ready(function(){
   $('.faqnav').affix({ offset: { top: 160 } });
+  
+  if (window.actionkit) {
+    actionkit.forms.contextRoot = '//act.boldprogressives.org/context/';
+    actionkit.forms.initForm('act');
+    actionkit.utils.appendHiddenInput('action_referrer', document.referrer);
+  }
+
+  
+  
   
 {{ page.code|safe }}
   
