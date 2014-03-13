@@ -64,6 +64,7 @@ margin-bottom: -20px;
 	color:white;
 	text-transform: uppercase;
 	border-radius: 0;
+  margin-top: 20px;
 }
 
 .pies-btn:hover{
@@ -97,6 +98,11 @@ label{
 	text-transform: uppercase;
 }
 
+label.p{
+	text-transform: none;
+	font-weight: 400;
+}
+
 .checkbox{
 	margin-left:15px;
 }
@@ -107,6 +113,7 @@ form{
 
 .form-group{
 	padding:10px 0;
+  line-height: 34px;
 	clear:both;
 }
 
