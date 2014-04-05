@@ -8,11 +8,11 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 h2 {
-	  padding-top: 30px;
+  padding-top: 30px;
 }
 
 p {
@@ -43,7 +43,6 @@ margin-bottom: -20px;
 .pies-intro section li {
 	padding-top: 10px;
 }
-
 
 .pies-welcome h1 {
 	text-align: center;
@@ -89,7 +88,6 @@ form .pies-btn {
 	margin-top: 0;
 }
 
-
 input {
 	border-radius: 0;
 }
@@ -99,7 +97,7 @@ h1, h1>a {
 	font-weight: 600;
 	color: #999;
 	text-transform: uppercase;
-	margin-top: 0
+	margin-top: 0;
 }
 h1>a:hover { 
   text-decoration: none; color: #bbb; 
@@ -148,7 +146,9 @@ form {
 	opacity: 0.8;
 	text-decoration: none;
 }
-.pies-content aside { margin-top: 15px; }
+.pies-content aside { 
+  margin-top: 15px; 
+}
 
 .pies-content ul {
 	list-style: disc;
@@ -163,7 +163,6 @@ form {
 	border-top: 1px solid #ddd;
 	margin-top: 25px;
 }
-
 
 #top-border {
 	display: block;
@@ -235,7 +234,6 @@ ul>ul {
 	text-transform: uppercase;
 }
 
-
 .faqnav>li {
 	margin-top: 10px;
 }
@@ -261,7 +259,6 @@ ul>ul {
 	color: #fff;
 }
 
-
 .lg-welcome-btn {
 	background-color: #eee;
 	font-size: 32px;
@@ -280,11 +277,7 @@ ul>ul {
 	text-align: center;
 }
 
-
-
 /* -------------------------------- welcome page css -------------------------------- */
-
-
 
 .next {
 	width: 100%;
@@ -296,18 +289,16 @@ ul>ul {
 	text-align: center;
 	margin: 0;
 	padding: 0;
-
 }
 
 .next img {
 	width: 80px;
 	margin: 0 auto;
-	opacity: .7;
-
+	opacity: 0.7;
 }
 
 .next img:hover {
-	opacity: .3;
+	opacity: 0.3;
 }
 
 
@@ -356,15 +347,16 @@ ul>ul {
 .expand:hover {
 	transform: scale(1.10) translateZ(10em); 
 	-ms-transform: scale(1.1) translateZ(10em); /* IE 9 */
-    -webkit-transform: scale(1.1) translateZ(10em); /* Safari and Chrome */
-	transition: .2s;
+  -webkit-transform: scale(1.1) translateZ(10em); /* Safari and Chrome */
+	transition: 0.2s;
 }
 
 .expand:active {
 	transform: scale(1.0);
 	-ms-transform: scale(1.0);
 	-webkit-transform: scale(1.0);
-transition: .1s;} 
+  transition: 0.1s;
+} 
 
 
 header {
@@ -374,7 +366,7 @@ header {
 	position: fixed;
 	z-index: 1000;
 	width: 100%;
-	}
+}
 
 
 #welcome {
@@ -486,7 +478,7 @@ header {
 	min-height: 680px;
 	padding: 0px 0 200px 0;
 	position: relative;
-z-index: 1;
+  z-index: 1;
 }
 
 #digital {
@@ -502,7 +494,7 @@ z-index: 1;
 	min-height: 680px;
 	padding: 0px 0 200px 0;
 	position: relative;
-z-index: 1;
+  z-index: 1;
 }
 
 #setup {
@@ -575,21 +567,21 @@ margin-top: 40px;
     visibility: hidden;
 }
 .tooltip-inner {
-    max-width: 200px;
-    padding: 5px 5px;
-    color: #000;
-    text-align: center;
-    text-decoration: none;
-    background-color: transparent;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
+  max-width: 200px;
+  padding: 5px 5px;
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
 }
 
 .tooltip-arrow {
-    position: absolute;
-    width: 0;
-    height: 0
+  position: absolute;
+  width: 0;
+  height: 0;
 }
 
 
