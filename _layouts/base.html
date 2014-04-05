@@ -85,7 +85,6 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="assets/js/jquery.js"></script>
     <script src="dist/js/bootstrap.min.js"></script>
-    {{ page.scripts }}
     {% if page.forms == 'on' %}
     <script src="//act.boldprogressives.org/resources/actionkit.js"></script>
     {% endif %}
@@ -148,8 +147,6 @@ $(document).ready(function(){
   	$('.expand').tooltip();
   	
   	{% endif %}
-    
-{{ page.code|safe }}
   
 });
   </script>
