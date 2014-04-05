@@ -24,6 +24,11 @@ h3, h4, h5, h6 {
 	  padding-top: 10px;
 }
 
+h3.title {
+  padding-top: 0;
+  margin-top: 15px;
+}
+
 .footer-logo img {
 	max-width: 150px;
 	margin: 10px;
@@ -89,12 +94,15 @@ input {
 	border-radius: 0;
 }
 
-h1 {
+h1, h1>a {
 	font-size: 18px;
 	font-weight: 600;
 	color: #999;
 	text-transform: uppercase;
 	margin-top: 0
+}
+h1>a:hover { 
+  text-decoration: none; color: #bbb; 
 }
 
 label {
@@ -125,16 +133,22 @@ form {
 	background-color: #fff;
 	border: 1px solid #ccc;
 }
-
+@media (min-width: 992px) {
+  body.post .pies-content { padding-left: 45px; padding-right: 45px; }
+}
+.pies-content.card {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
 .pies-content a {
 	color: #1a86ab;
 }
-
 .pies-content a:hover {
 	opacity: 0.8;
 	text-decoration: none;
 }
-
+.pies-content aside { margin-top: 15px; }
 
 .pies-content ul {
 	list-style: disc;
