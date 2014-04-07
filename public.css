@@ -131,9 +131,6 @@ form {
 	background-color: #fff;
 	border: 1px solid #ccc;
 }
-@media (min-width: 992px) {
-  body.post .pies-content { padding-left: 45px; padding-right: 45px; }
-}
 .pies-content.card {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -599,5 +596,18 @@ margin-top: 40px;
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+
+  body.post .pies-content { 
+    padding-left: 45px; 
+    padding-right: 45px; 
+  }
+  .faqnav { width: 213px; }
+
+}
+
+/* Large devices (desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+  .faqnav { width: 263px; }
 
 }
