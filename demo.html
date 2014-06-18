@@ -1,6 +1,7 @@
 ---
 layout: base
 title: PIES | Welcome
+forms: true
 ---
 
 	<section id="welcome" class="pies-welcome">
@@ -161,18 +162,19 @@ title: PIES | Welcome
 
 
 
-<section id="onward" class="pies-welcome">
+<section id="demo-me" class="pies-welcome">
 <div class="container">
 
 	<div class="row">
       <div class="col-md-6 col-md-offset-3 pies-content">
-	      <h2 class="no-top">Request Account</h2>
-      	<p class="top-pad">The PCCC is now taking reservations for PIES beta accounts. If you are a candidate looking to run for office in 2014, or an organizer interested in kicking the tires, sign up for your beta account.</p>
+	      <h2 class="no-top">Schedule a demo</h2>
+      	<p class="top-pad">Fill out your information below to schedule your PIES demo.</p>
       	<form class="ak-form" name="act" role="form-horizontal" action="//act.boldprogressives.org/act/" accept-charset="utf-8">
-          <input type="hidden" name="page" value="pies_beta_access_request">
-          <input type="hidden" name="redirect" value="//campaignpies.com/thanks">
+          <input type="hidden" name="page" value="PIES_Demo">
+          <input type="hidden" name="redirect" value="//campaignpies.com/demo-thanks">
           <input type="hidden" name="required" value="country"> 
           <input type="hidden" name="country" value="United States">
+          <input type="hidden" name="source" value="website" id="source-code">
 
           
           
@@ -266,3 +268,9 @@ title: PIES | Welcome
     </div> <!-- /container -->
 
 </section>
+<style>
+#demo-me {
+  padding-top: 30px;
+  
+}
+</style>
