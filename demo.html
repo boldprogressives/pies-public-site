@@ -217,6 +217,35 @@ forms: true
       		<hr>
       		
       		<div class="form-group">
+	      		<label for="pies-first" class="control-label col-sm-4">Select a time</label>
+	      		<div class="col-sm-8 time-choices">
+    <label>
+ <input class="time-choice" type="checkbox" name="action_pies_demo" value="June 25" id="june_25" onClick="$('#hiddenquestion-div').show(500);"/>
+Wednesday, June 25, 12-1pm ET
+</label>
+
+<label>
+ <input class="time-choice" type="checkbox" name="action_pies_demo" value="June 26" id="june_26" onClick="$('#hiddenquestion-div').show(500);"/>
+Thursday, June 26, 5-6pm ET
+</label>
+
+<label>
+ <input class="time-choice" type="checkbox" name="action_pies_demo" value="June 27" id="june_27" onClick="$('#hiddenquestion-div').show(500);"/>
+Friday, June 27, 9-10am ET
+</label>
+
+<label>
+ <input class="time-choice" type="checkbox" name="action_pies_demo" value="June 26" id="june_28" onClick="$('#hiddenquestion-div').show(500);"/>
+Saturday, June 28, 10-11am ET
+</label>
+
+	      		</div>
+      		</div>
+      		
+      		<br>
+      		<hr>
+      		
+      		<div class="form-group">
 	      		<label for="pies-first" class="control-label col-sm-4">Candidate's name</label>
 	      		<div class="col-sm-8">
 	      			<input type="text" name="action_candidate_name" class="form-control" id="pies-first" placeholder="candidate name">
@@ -273,4 +302,6 @@ forms: true
   padding-top: 30px;
   
 }
+.time-choices label { font-weight: 400; }
+.time-choices input { margin-right: 20px; }
 </style>
